@@ -49,7 +49,6 @@ class ViewController: UIViewController {
             boolButtonHideDown = true
         }
     }
-//jkjhgk
     @IBAction func buttonHide1(_ sender: UIButton) {
         if boolButtonHide1Down {
             self.imageView1.isHidden = false
