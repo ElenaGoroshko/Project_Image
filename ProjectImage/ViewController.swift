@@ -36,7 +36,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func buttonHide(_ sender: UIButton) {
-
+/* Максим, подскажите что я делаю неправильно. Почему текст кнопки мненяется на мгновение и возвращается в начальное состояние?
+ */
         if boolButtonHideDown {
             self.imageView.isHidden = false
             self.buttonHide.titleLabel?.text = "Hide"
